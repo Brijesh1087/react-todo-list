@@ -1,0 +1,95 @@
+.container{
+	width: 100%;
+	height: 100vh;
+	background: transparent;
+	display: grid;
+	place-items: center;
+}
+.inner-container{
+	text-align: center;
+	width: 94%;
+	height: auto;
+
+	padding: 3%;
+}.header{
+	font-size: 3rem;
+	margin: 1rem auto;
+	font-family: monospace;
+	color: #ecf0f1;
+	background: #34495e;
+	padding: .8rem 0;
+}
+form{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.form-control{
+	width: 80%;
+	padding: .2rem 2rem ;
+	font-size: 1.6rem;
+	/*background: #1abc9c;*/
+	border: none;
+	border-bottom: 3px solid #2c3e50;
+	font-weight: bolder;
+	color: #2c3e50;
+}
+.form-control:focus{
+	outline: none;
+}
+i.fa{
+	padding: .4rem;
+	background: #1abc9c;
+	color: white;
+	font-size: 2rem;
+	border-radius: 4%;
+	transition: .5s;
+}
+i.fa:hover{
+	background: #1dd1a1;
+
+}
+ol{
+	list-style: none;
+	width: 90%;
+	padding: calc(100% - 90%);
+}
+ 
+.deleteBtn.fa{
+	font-size: 2rem;
+	color: white;
+	background: #c0392b;
+	padding: .4rem;
+	
+}
+.deleteBtn.fa:hover{
+	background: #e67e22;
+}
+.addItems{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: transparent;
+	margin: .4rem;
+	width: 100%;
+	text-align: start;
+}
+.Items{
+	background: #5f27cd ;
+	min-width:96% ;
+	margin: 0 .2rem;
+	color: white;
+	font-weight: 400;
+	padding: .7rem;
+	font-size: 2rem;
+	font-family: monospace;
+	text-transform: capitalize;
+	border-radius: .2rem;
+	text-align: start;
+	transition: .5s;
+	word-wrap: break-word;
+
+}
+.Items:hover{
+	background: #341f97;
+}
